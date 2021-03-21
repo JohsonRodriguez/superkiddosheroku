@@ -16,7 +16,7 @@ import java.util.List;
 
 @RequestMapping("/producto")
 //@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = "https://superkiddos.herokuapp.com/")
+@CrossOrigin(origins = "https://superkiddos.herokuapp.com/producto")
 
 public class ProductoController {
     @Autowired
