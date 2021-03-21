@@ -18,6 +18,6 @@ public class SuperkiddosApplication {
 class HelloController{
 	@GetMapping("/")
 	String hello(){
-		return "Hola Mundo";
+		return "Hola Mundo 2";
 	}
 }
