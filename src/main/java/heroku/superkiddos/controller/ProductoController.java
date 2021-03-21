@@ -13,8 +13,11 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+
 @RequestMapping("/producto")
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://superkiddos.herokuapp.com/")
+
 public class ProductoController {
     @Autowired
     ProductoService productoService;
